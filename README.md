@@ -31,5 +31,4 @@ vercel --prod # produção
 - Textos e projetos: `index.html` (cada projeto é um `<article class="entry">`).
 - Cores e tipografia: variáveis no topo de `css/style.css`.
 - Filtro por tecnologia: as tags com `data-token` alimentam o filtro. Para uma tecnologia nova, adicione o `data-token` na tag e um `<button class="chip" data-filter="...">` na seção de filtro.
-- Imagens: `images/*.svg` são ilustrações. Para usar prints reais, salve o arquivo em `images/` (por exemplo `abiquim.png`) e troque o `src` do `<img>` correspondente no `index.html`.
 - Contatos: lista no `<footer>` do `index.html`.

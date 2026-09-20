@@ -259,23 +259,3 @@ h1 {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; }
 }
-
-/* ---------- Pré-visualizações ---------- */
-.entry { display: grid; gap: 1.25rem; }
-
-.entry-media { order: -1; max-width: 26rem; margin: 0; }
-
-.entry-media img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--surface);
-}
-
-/* Imagem ao lado do texto quando há espaço */
-@media (min-width: 48rem) and (max-width: 59.99rem), (min-width: 76rem) {
-  .entry { grid-template-columns: minmax(0, 1fr) 19rem; gap: 2rem; align-items: start; }
-  .entry-media { order: 0; max-width: none; }
-}
