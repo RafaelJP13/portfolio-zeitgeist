@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Ilustração de CRM multi-tenant com métricas, e-mail e WhatsApp">
+  <title>CRM multi-tenant, e-mail em massa e automação para WhatsApp</title>
+  <rect width="960" height="600" fill="#E3EEE9"/>
+  <rect x="70" y="54" width="820" height="492" rx="20" fill="#12252D" opacity=".12"/>
+  <rect x="60" y="44" width="840" height="492" rx="20" fill="#FFFFFF" stroke="#12252D" stroke-width="3"/>
+  <path d="M80 44h800a20 20 0 0 1 20 20v48H60V64a20 20 0 0 1 20-20Z" fill="#EEF2F1"/>
+  <circle cx="91" cy="78" r="8" fill="#C43F1A"/>
+  <circle cx="117" cy="78" r="8" fill="#E8B84A"/>
+  <circle cx="143" cy="78" r="8" fill="#5BB37A"/>
+  <rect x="188" y="65" width="500" height="26" rx="13" fill="#FFFFFF"/>
+  <rect x="60" y="112" width="190" height="424" fill="#123B45"/>
+  <rect x="88" y="145" width="128" height="20" rx="8" fill="#FFFFFF"/>
+  <rect x="88" y="202" width="132" height="38" rx="9" fill="#0E5A66"/>
+  <rect x="104" y="215" width="92" height="12" rx="6" fill="#FFFFFF"/>
+  <rect x="104" y="270" width="98" height="10" rx="5" fill="#FFFFFF" opacity=".45"/>
+  <rect x="104" y="310" width="112" height="10" rx="5" fill="#FFFFFF" opacity=".45"/>
+  <rect x="104" y="350" width="86" height="10" rx="5" fill="#FFFFFF" opacity=".45"/>
+  <text x="286" y="158" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#12252D">Visão geral do CRM</text>
+  <rect x="282" y="180" width="176" height="88" rx="12" fill="#F3F7F5"/>
+  <rect x="300" y="196" width="72" height="10" rx="5" fill="#879A98"/>
+  <text x="300" y="244" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#12252D">2.480</text>
+  <rect x="474" y="180" width="176" height="88" rx="12" fill="#F3F7F5"/>
+  <rect x="492" y="196" width="88" height="10" rx="5" fill="#879A98"/>
+  <text x="492" y="244" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#12252D">1.826</text>
+  <rect x="666" y="180" width="196" height="88" rx="12" fill="#F3F7F5"/>
+  <rect x="684" y="196" width="98" height="10" rx="5" fill="#879A98"/>
+  <text x="684" y="244" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#12252D">74%</text>
+  <rect x="282" y="288" width="580" height="210" rx="12" fill="#F3F7F5"/>
+  <rect x="302" y="308" width="164" height="12" rx="6" fill="#C6D2CF"/>
+  <path d="M310 452 390 412l78 18 82-72 82 35 86-83 116 40" fill="none" stroke="#0E5A66" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M310 452 390 412l78 18 82-72 82 35 86-83 116 40v70H310Z" fill="#0E5A66" opacity=".1"/>
+  <circle cx="632" cy="310" r="24" fill="#C43F1A"/>
+  <path d="M621 310h22m-11-11v22" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="792" cy="444" r="28" fill="#1E7A46"/>
+  <path d="M780 444c0-7 5-12 12-12s12 5 12 12-5 12-12 12c-2 0-4 0-6-1l-7 3 2-7c-1-2-1-4-1-7Z" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M786 440c2 5 5 8 10 10" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <rect x="278" y="514" width="236" height="48" rx="24" fill="#FFFFFF" stroke="#0E5A66" stroke-width="2"/>
+  <text x="396" y="545" font-family="Arial, sans-serif" font-size="19" font-weight="600" fill="#12252D" text-anchor="middle">CRM multi-tenant</text>
+  <rect x="526" y="514" width="154" height="48" rx="24" fill="#FFFFFF" stroke="#0E5A66" stroke-width="2"/>
+  <text x="603" y="545" font-family="Arial, sans-serif" font-size="19" font-weight="600" fill="#12252D" text-anchor="middle">E-mail</text>
+  <rect x="692" y="514" width="158" height="48" rx="24" fill="#FFFFFF" stroke="#1E7A46" stroke-width="2"/>
+  <text x="771" y="545" font-family="Arial, sans-serif" font-size="19" font-weight="600" fill="#12252D" text-anchor="middle">WhatsApp</text>
+</svg>

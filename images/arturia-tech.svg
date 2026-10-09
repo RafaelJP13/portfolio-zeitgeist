@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Ilustração de aplicações web e mobile white-label com suporte técnico">
+  <title>Projetos white-label web e mobile e suporte técnico</title>
+  <rect width="960" height="600" fill="#E7EEDD"/>
+  <rect x="96" y="88" width="528" height="356" rx="18" fill="#FFFFFF" stroke="#12252D" stroke-width="3"/>
+  <path d="M114 88h492a18 18 0 0 1 18 18v42H96v-42a18 18 0 0 1 18-18Z" fill="#EEF2F1"/>
+  <circle cx="124" cy="123" r="7" fill="#C43F1A"/>
+  <circle cx="148" cy="123" r="7" fill="#E8B84A"/>
+  <circle cx="172" cy="123" r="7" fill="#5BB37A"/>
+  <rect x="202" y="111" width="360" height="24" rx="12" fill="#FFFFFF"/>
+  <rect x="124" y="176" width="136" height="224" rx="12" fill="#123B45"/>
+  <rect x="144" y="198" width="94" height="16" rx="8" fill="#FFFFFF"/>
+  <rect x="144" y="242" width="94" height="28" rx="8" fill="#0E5A66"/>
+  <rect x="154" y="251" width="64" height="10" rx="5" fill="#FFFFFF"/>
+  <rect x="146" y="294" width="84" height="9" rx="4" fill="#FFFFFF" opacity=".5"/>
+  <rect x="146" y="326" width="74" height="9" rx="4" fill="#FFFFFF" opacity=".5"/>
+  <rect x="146" y="358" width="88" height="9" rx="4" fill="#FFFFFF" opacity=".5"/>
+  <rect x="282" y="176" width="314" height="100" rx="12" fill="#F3F7F5"/>
+  <rect x="302" y="196" width="120" height="12" rx="6" fill="#12252D"/>
+  <rect x="302" y="222" width="248" height="9" rx="4" fill="#C6D2CF"/>
+  <rect x="302" y="242" width="198" height="9" rx="4" fill="#C6D2CF"/>
+  <rect x="282" y="294" width="148" height="106" rx="12" fill="#DCEBE5"/>
+  <rect x="448" y="294" width="148" height="106" rx="12" fill="#F4E8DF"/>
+  <path d="M312 370V344l26-22 26 22v26Z" fill="none" stroke="#0E5A66" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M478 372v-44a22 22 0 0 1 44 0v44m-51-2h58v18h-58z" fill="none" stroke="#C43F1A" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="680" y="168" width="166" height="286" rx="26" fill="#12252D"/>
+  <rect x="690" y="190" width="146" height="242" rx="17" fill="#FFFFFF"/>
+  <rect x="734" y="178" width="58" height="6" rx="3" fill="#7D8D90"/>
+  <rect x="708" y="216" width="110" height="34" rx="8" fill="#0E5A66"/>
+  <rect x="720" y="228" width="74" height="10" rx="5" fill="#FFFFFF"/>
+  <rect x="708" y="266" width="110" height="66" rx="8" fill="#F3F7F5"/>
+  <circle cx="733" cy="289" r="11" fill="#E8B84A"/>
+  <rect x="752" y="280" width="50" height="8" rx="4" fill="#12252D"/>
+  <rect x="752" y="296" width="42" height="7" rx="3" fill="#C6D2CF"/>
+  <rect x="708" y="346" width="110" height="66" rx="8" fill="#F3F7F5"/>
+  <circle cx="733" cy="369" r="11" fill="#5BB37A"/>
+  <rect x="752" y="360" width="50" height="8" rx="4" fill="#12252D"/>
+  <rect x="752" y="376" width="42" height="7" rx="3" fill="#C6D2CF"/>
+  <circle cx="777" cy="469" r="34" fill="#C43F1A"/>
+  <path d="M762 469h30m-15-15v30" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <rect x="170" y="488" width="220" height="54" rx="27" fill="#FFFFFF" stroke="#0E5A66" stroke-width="3"/>
+  <text x="280" y="523" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#12252D" text-anchor="middle">White-label web</text>
+  <rect x="410" y="488" width="220" height="54" rx="27" fill="#FFFFFF" stroke="#0E5A66" stroke-width="3"/>
+  <text x="520" y="523" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#12252D" text-anchor="middle">Mobile</text>
+  <rect x="650" y="488" width="190" height="54" rx="27" fill="#FFFFFF" stroke="#C43F1A" stroke-width="3"/>
+  <text x="745" y="523" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#12252D" text-anchor="middle">Suporte</text>
+</svg>

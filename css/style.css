@@ -59,7 +59,7 @@ p { margin: 0 0 1rem; }
 }
 
 /* ---------- Hero ---------- */
-.hero { padding-block: clamp(3rem, 10vw, 7rem) clamp(2rem, 5vw, 3.5rem); }
+.hero { padding-block: clamp(3rem, 10vw, 7rem) 0; }
 
 .hero-role {
   margin: 0 0 1.25rem;
@@ -83,10 +83,28 @@ h1 {
 }
 
 .hero-lead {
+  position: relative;
   margin: 0;
   max-width: 34ch;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  border-left: 2px solid var(--sea);
+  color: var(--sea);
+  font-family: var(--font-display);
   font-size: clamp(1.25rem, 2.2vw, 1.5rem);
+  font-style: italic;
+  font-weight: 600;
   line-height: 1.4;
+}
+
+.hero-lead::before {
+  content: "“";
+  position: absolute;
+  top: -1.1rem;
+  left: 0.7rem;
+  color: var(--buoy);
+  font-size: 2.25rem;
+  font-style: normal;
+  line-height: 1;
 }
 
 .hero-stack {
@@ -95,12 +113,42 @@ h1 {
   color: var(--muted);
 }
 
+.books-anchor {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.75rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--sea);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.books-anchor:hover {
+  border-color: var(--sea);
+  background: var(--surface);
+}
+
+.books-anchor svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
 @media (min-width: 52rem) {
   .hero-grid { grid-template-columns: 1.1fr 1fr; align-items: start; }
 }
 
 /* ---------- Filtro ---------- */
-.filter { display: none; padding-block: 1.5rem 2.5rem; }
+.filter { display: none; padding-block: 1rem 2.5rem; }
 .js .filter { display: block; }
 
 .filter h2 {
@@ -164,12 +212,51 @@ h1 {
 }
 
 .company-name {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   align-self: start;
+  padding: 0.8rem 0.9rem;
+  border-left: 4px solid var(--sea);
+  border-radius: 0 10px 10px 0;
+  background: var(--surface);
   color: var(--sea);
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
+  box-shadow: 0 4px 14px rgb(18 37 45 / 8%);
+}
+
+.company-label {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.company-title {
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+
+.company-period {
+  color: var(--muted);
+  font: 500 0.8125rem/1.4 var(--font-body);
+  letter-spacing: 0;
+}
+
+.company-icon {
+  flex: 0 0 2.5rem;
+  align-self: start;
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: var(--sea);
+  color: var(--bg);
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
 }
 
 .company.is-dim { opacity: 0.4; }
@@ -245,6 +332,83 @@ h1 {
 }
 
 .links a:hover { color: var(--ink); }
+
+/* ---------- Leituras técnicas ---------- */
+.books {
+  padding-block: 2rem 2.5rem;
+  border-top: 2px solid var(--ink);
+}
+
+.books-title {
+  margin-bottom: 1.25rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.book-card {
+  display: grid;
+  gap: 1.5rem;
+  padding: clamp(1rem, 3vw, 1.75rem);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.book-cover {
+  width: min(100%, 15rem);
+  margin: 0 auto;
+}
+
+.book-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  box-shadow: 0 8px 22px rgb(18 37 45 / 16%);
+}
+
+.book-info {
+  align-self: center;
+}
+
+.book-status {
+  margin-bottom: 0.75rem;
+  color: var(--sea);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.book-info h3 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.book-subtitle {
+  margin: 0.5rem 0 1rem;
+  color: var(--muted);
+  font-size: 1.125rem;
+}
+
+.book-authors {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.book-edition {
+  margin: 0;
+  color: var(--muted);
+}
+
+@media (min-width: 40rem) {
+  .book-card { grid-template-columns: 15rem minmax(0, 1fr); align-items: center; }
+  .book-cover { width: 100%; }
+}
 
 /* ---------- Rodapé ---------- */
 .footer {
