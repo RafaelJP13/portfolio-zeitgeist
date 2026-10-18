@@ -113,11 +113,17 @@ h1 {
   color: var(--muted);
 }
 
-.books-anchor {
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.hero-anchor {
   display: inline-flex;
   align-items: center;
   gap: 0.55rem;
-  margin-top: 1.75rem;
   padding: 0.55rem 0.8rem;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -128,12 +134,12 @@ h1 {
   transition: background-color 0.15s, border-color 0.15s, color 0.15s;
 }
 
-.books-anchor:hover {
+.hero-anchor:hover {
   border-color: var(--sea);
   background: var(--surface);
 }
 
-.books-anchor svg {
+.hero-anchor svg {
   width: 1.2rem;
   height: 1.2rem;
   fill: none;
@@ -334,19 +340,22 @@ h1 {
 .links a:hover { color: var(--ink); }
 
 /* ---------- Leituras técnicas ---------- */
-.books {
+.books,
+.hustle {
   padding-block: 2rem 2.5rem;
   border-top: 2px solid var(--ink);
 }
 
-.books-title {
+.books-title,
+.hustle-title {
   margin-bottom: 1.25rem;
   font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 700;
   letter-spacing: -0.025em;
 }
 
-.book-card {
+.book-card,
+.hustle-card {
   display: grid;
   gap: 1.5rem;
   padding: clamp(1rem, 3vw, 1.75rem);
@@ -373,7 +382,8 @@ h1 {
   align-self: center;
 }
 
-.book-status {
+.book-status,
+.hustle-status {
   margin-bottom: 0.75rem;
   color: var(--sea);
   font-size: 0.875rem;
@@ -382,14 +392,16 @@ h1 {
   text-transform: uppercase;
 }
 
-.book-info h3 {
+.book-info h3,
+.hustle-info h3 {
   font-size: clamp(1.5rem, 3vw, 2.25rem);
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.1;
 }
 
-.book-subtitle {
+.book-subtitle,
+.hustle-subtitle {
   margin: 0.5rem 0 1rem;
   color: var(--muted);
   font-size: 1.125rem;
@@ -408,6 +420,26 @@ h1 {
 @media (min-width: 40rem) {
   .book-card { grid-template-columns: 15rem minmax(0, 1fr); align-items: center; }
   .book-cover { width: 100%; }
+}
+
+/* ---------- Side hustle ---------- */
+.hustle-media { margin: 0; }
+
+.hustle-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.hustle-info { align-self: center; }
+
+.hustle-info p:not([class]) { max-width: var(--measure); }
+
+@media (min-width: 48rem) {
+  .hustle-card { grid-template-columns: minmax(0, 24rem) minmax(0, 1fr); align-items: center; }
 }
 
 /* ---------- Rodapé ---------- */
